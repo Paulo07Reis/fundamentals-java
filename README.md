@@ -20,10 +20,10 @@ Este repositório é destinado a registrar a minha evolução na linguagem Java,
 
 ### 📂 Estrutura do Repositório
 📁 src<br>
-├── fundamentos<br>
-├── orientacao-objetos<br>
-├── projetos<br>
-└── spring-boot<br>
+├── fundamentals<br>
+├── poo<br>
+├── projects<br>
+└── springboot<br>
 
 
 --- 
