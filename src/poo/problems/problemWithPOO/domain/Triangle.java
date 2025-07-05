@@ -1,4 +1,4 @@
-package poo.problemWithPOO.domain;
+package poo.problems.problemWithPOO.domain;
 
 public class Triangle {
 

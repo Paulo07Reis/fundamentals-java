@@ -1,6 +1,6 @@
-package poo.problemWithPOO.application;
+package poo.problems.problemWithPOO.application;
 
-import poo.problemWithPOO.domain.Triangle;
+import poo.problems.problemWithPOO.domain.Triangle;
 
 import java.util.Locale;
 import java.util.Scanner;

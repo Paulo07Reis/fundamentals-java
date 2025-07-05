@@ -1,4 +1,4 @@
-package poo.problemWithoutPOO;
+package poo.problems.problemWithoutPOO;
 
 import java.util.Locale;
 import java.util.Scanner;

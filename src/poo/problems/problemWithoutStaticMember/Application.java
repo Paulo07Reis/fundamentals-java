@@ -1,4 +1,4 @@
-package poo.problemWithoutStaticMember;
+package poo.problems.problemWithoutStaticMember;
 
 import java.util.Locale;
 import java.util.Scanner;
