@@ -12,38 +12,10 @@ public class Product {
 
     public void addProducts(int quantity){
         this.quantity += quantity;
-        System.out.printf("""
-            \n
-            UPDATE
-            Product: %s,
-            Price: $%.2f,
-            Quantity: %d,
-            Total: $%.2f
-            \n
-            """,
-            getName(),
-            getPrice(),
-            getQuantity(),
-            totalValueStock()
-        );
     }
 
     public void removeProducts(int quantity){
         this.quantity -= quantity;
-        System.out.printf("""
-            \n
-            UPDATE
-            Product: %s,
-            Price: $%.2f,
-            Quantity: %d,
-            Total: $%.2f
-            \n
-            """,
-            getName(),
-            getPrice(),
-            getQuantity(),
-            totalValueStock()
-        );
     }
 
     public String getName() {
@@ -68,5 +40,17 @@ public class Product {
 
     public void setQuantity(int quantity) {
         this.quantity = quantity;
+    }
+
+    @Override
+    public String toString() {
+        return """
+            \n
+            Product: %s,
+            Price: $%.2f,
+            Quantity: %d,
+            Total: $%.2f
+            \n
+            """.formatted(getName(), getPrice(), getQuantity(), totalValueStock());
     }
 }

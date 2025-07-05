@@ -21,24 +21,14 @@ public class application {
         System.out.print("Quantity: ");
         product.setQuantity(sc.nextInt());
 
-        System.out.printf("""
-            \n
-            Product: %s,
-            Price: $%.2f,
-            Quantity: %d,
-            Total: $%.2f
-            \n
-            """,
-            product.getName(),
-            product.getPrice(),
-            product.getQuantity(),
-            product.totalValueStock()
-        );
+        System.out.println(product);
 
         System.out.print("Enter the number of products to be added in stock: ");
         product.addProducts(sc.nextInt());
+        System.out.println("UPDATE" + product);
 
         System.out.print("Enter the number of products to be remove in stock: ");
         product.removeProducts(sc.nextInt());
+        System.out.println("UPDATE" + product);
     }
 }
