@@ -1,0 +1,72 @@
+package poo.exercise.exercise01.domain;
+
+public class Product {
+
+    private String name;
+    private double price;
+    private int quantity;
+
+    public double totalValueStock(){
+        return (price * quantity);
+    }
+
+    public void addProducts(int quantity){
+        this.quantity += quantity;
+        System.out.printf("""
+            \n
+            UPDATE
+            Product: %s,
+            Price: $%.2f,
+            Quantity: %d,
+            Total: $%.2f
+            \n
+            """,
+            getName(),
+            getPrice(),
+            getQuantity(),
+            totalValueStock()
+        );
+    }
+
+    public void removeProducts(int quantity){
+        this.quantity -= quantity;
+        System.out.printf("""
+            \n
+            UPDATE
+            Product: %s,
+            Price: $%.2f,
+            Quantity: %d,
+            Total: $%.2f
+            \n
+            """,
+            getName(),
+            getPrice(),
+            getQuantity(),
+            totalValueStock()
+        );
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
+    }
+}
