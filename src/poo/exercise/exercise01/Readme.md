@@ -1,4 +1,4 @@
 ### Stock Program
 
-<img src="../pictures/exercise01-goal.png"/>
-<img src="../pictures/exercise01-example.png"/>
+<img src="../assets/exercise01-goal.png"/>
+<img src="../assets/exercise01-example.png"/>
