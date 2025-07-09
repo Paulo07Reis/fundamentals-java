@@ -1,4 +1,4 @@
-package poo.problems.problemsWithOverload;
+package poo.problems.problemWithOverload;
 
 public class Product {
     private String name;

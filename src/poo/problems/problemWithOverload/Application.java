@@ -1,4 +1,4 @@
-package poo.problems.problemsWithOverload;
+package poo.problems.problemWithOverload;
 
 import java.util.Locale;
 import java.util.Scanner;
