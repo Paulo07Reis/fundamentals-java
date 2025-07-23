@@ -1,4 +1,4 @@
-package poo.exercise.exercise12;
+package poo.exercise.exercise12.Entities;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

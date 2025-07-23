@@ -1,4 +1,4 @@
-package poo.exercise.exercise12;
+package poo.exercise.exercise12.Entities.enums;
 
 public enum OrderStatus {
     PENDING_PAYMENT,

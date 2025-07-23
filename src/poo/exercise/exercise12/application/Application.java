@@ -1,4 +1,7 @@
-package poo.exercise.exercise12;
+package poo.exercise.exercise12.application;
+
+import poo.exercise.exercise12.Entities.*;
+import poo.exercise.exercise12.Entities.enums.OrderStatus;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

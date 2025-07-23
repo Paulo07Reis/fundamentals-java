@@ -1,4 +1,4 @@
-package poo.exercise.exercise12;
+package poo.exercise.exercise12.Entities;
 
 public class Product {
     private String name;
