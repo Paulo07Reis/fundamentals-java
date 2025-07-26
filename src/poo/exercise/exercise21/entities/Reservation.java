@@ -22,9 +22,16 @@ public class Reservation {
         return TimeUnit.DAYS.convert(diff, TimeUnit.MILLISECONDS);
     }
 
-    public void updateDate(Date checkIn, Date checkOut){
+    public String updateDates(Date checkIn, Date checkOut){
+        if (checkIn.before(getCheckIn()) || checkOut.before(getCheckIn())){
+            return "Reservation dates for update must be future dates";
+        } else if (!checkOut.after(checkIn)){
+            return "Check-out date must be after check-in date";
+        }
+
         this.checkIn = checkIn;
         this.checkOut = checkOut;
+        return null;
     }
 
     public Integer getRoomNumber() {
