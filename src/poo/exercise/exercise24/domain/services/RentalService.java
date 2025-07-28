@@ -1,4 +1,7 @@
-package poo.exercise.exercise24;
+package poo.exercise.exercise24.domain.services;
+
+import poo.exercise.exercise24.domain.entities.CarRental;
+import poo.exercise.exercise24.domain.entities.Invoice;
 
 import java.time.Duration;
 

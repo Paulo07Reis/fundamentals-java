@@ -1,8 +1,12 @@
-package poo.exercise.exercise24;
+package poo.exercise.exercise24.application;
+
+import poo.exercise.exercise24.domain.entities.CarRental;
+import poo.exercise.exercise24.domain.entities.Vehicle;
+import poo.exercise.exercise24.domain.services.BrazilTaxService;
+import poo.exercise.exercise24.domain.services.RentalService;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-import java.time.format.DateTimeFormatterBuilder;
 import java.util.Locale;
 import java.util.Scanner;
 

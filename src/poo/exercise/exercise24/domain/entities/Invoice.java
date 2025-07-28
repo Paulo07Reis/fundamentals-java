@@ -1,4 +1,4 @@
-package poo.exercise.exercise24;
+package poo.exercise.exercise24.domain.entities;
 
 public class Invoice {
     private Double basicPayment;
