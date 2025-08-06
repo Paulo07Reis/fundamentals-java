@@ -7,6 +7,6 @@ public class Rectangle extends AbstractShape{
 
     @Override
     public Double area() {
-        return 0.0;
+        return width * height;
     }
 }

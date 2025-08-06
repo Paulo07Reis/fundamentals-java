@@ -2,6 +2,7 @@ package poo.exercise.exercise26;
 
 public class Circle implements Shape {
     private Double radius;
+    private static final Double PI = Math.PI;
 
     public Circle(Double radius) {
         this.radius = radius;
@@ -9,7 +10,7 @@ public class Circle implements Shape {
 
     @Override
     public Double area(){
-        return 0.0;
+        return PI * (radius * radius);
     }
 
 }
